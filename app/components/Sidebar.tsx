@@ -88,14 +88,14 @@ export default function Sidebar({
       {/* Sidebar Header */}
       <div className="p-4 border-b border-[#1F2530]">
         <div className="text-lg font-semibold text-white flex items-center gap-2">
-          🧠 Analysis AI
+          Analysis AI
         </div>
         <div className="text-xs text-gray-400">Your Dashboards</div>
       </div>
 
       {/* Import Section */}
       <div className="p-4 border-b border-[#1F2530] space-y-3">
-        <div className="text-sm text-gray-400 font-medium">📂 Import Analysis</div>
+        <div className="text-sm text-gray-400 font-medium">Import Excel file (.xlsx or .xls) </div>
 
         <input
           ref={fileRef}
